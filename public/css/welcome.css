@@ -1,0 +1,60 @@
+h1.back{
+  height: 180px;
+  text-align: center;
+  padding-top: 30px;
+  background-image: url("../images/bangladesh.png");
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  font-size: 80px;
+}
+
+.start{
+    background: lightblue;
+    margin: 0;
+    padding: 0;
+      font-family: 'Roboto', sans-serif;
+}
+
+.navbar{
+  text-transform: capitalize;
+  font-weight: 700;
+  font-size: 18px;
+  color: black;
+}
+
+.search-box{
+  background:black;
+  border-radius: 10px;
+  padding-left: 0;
+}
+
+.search-txt{
+  background:none;
+  border: none;
+  outline: none;
+  color: white;
+  width: 0;
+}
+
+.fa-search{
+  color: black;
+}
+
+.search-box:hover > .search-txt{
+  width: 180px;
+  padding: 0 6px;
+}
+
+nav a:link {
+  color: lightgreen;
+}
+
+/* visited link */
+nav a:visited {
+  color: green;
+}
+
+.active, nav li a:hover:not(.active) {
+    background-color:#4CAF50;
+}

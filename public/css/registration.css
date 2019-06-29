@@ -1,0 +1,120 @@
+body{
+	background-image: linear-gradient(to right,lightblue,#4ba7ea);
+
+}
+
+.register-left{
+	text-align: center;
+	color:  #73264d;
+	padding: 30px;
+}
+
+.register-left p{
+	padding: 20px 20px 0;
+}
+
+.register-left .btn-primary{
+	border-radius: 20px;
+	border: none;
+	width: 120px;
+	background: #f8f8f8;
+	font-weight: 600;
+	color: black;
+	margin-top: 20px;
+	padding: 10px;
+}
+.register-left .btn-primary:hover{
+	background: #b300b3;
+    color: white;
+}
+.register-left .down{
+	margin-top: 30px;
+	animation: mover 1s infinite alternate;
+}
+@keyframes mover{
+	0%{transform: translateY(0);}
+	100%{transform: translateY(-30px);}
+}
+
+.register-right{
+	border: none;
+	background: lightblue;
+	border-top-left-radius: 10% 50%;
+	border-bottom-left-radius: 10% 50%;
+	padding-top: 10px;
+	padding-bottom: 20px;
+}
+
+.register-right h2{
+	text-align: center;
+	margin-bottom: 10px;
+	color: #73264d;
+}
+.register-form{
+	padding: #73264d;
+}
+
+.register-right .register-form input
+{
+	color: blue;
+	font-weight: 400;
+	font-size: 18px;
+	padding: 10px;
+	border-radius: 1.5rem;
+	padding-left: 15px;
+}
+
+.register-right .btn-primary{
+	float: right;
+	border-radius: 20px;
+	border: none;
+	width: 120px;
+	background: #f8f8f8;
+	font-weight: 600;
+	color: black;
+	margin-top: 20px;
+	margin-right: 10%;
+	padding: 10px;
+}
+
+.abc{
+	color: white;
+}
+
+.register-right .btn-primary:hover{
+	background: #b300b3;
+    color: white;
+}
+
+.fa-caret-down{
+	font-size: 100px;
+}
+
+.error{
+	color: red;
+	font-size: 25px;
+}
+
+button a:link {
+  text-decoration: none;
+    color: black;
+    padding: 20px;
+}
+
+button a:visited {
+  text-decoration: none;
+    color: black;
+    padding: 20px;
+}
+
+button a:hover {
+  text-decoration: none;
+    color: wheat;
+    padding: 20px;
+}
+
+button a:active {
+  text-decoration: none;
+    color: black;
+    padding: 20px;
+}
